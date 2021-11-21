@@ -33,8 +33,7 @@ div{
     border-style: inset;
     border-color: white;
     border-radius: 15px;
-    margin-left: 350px;
-    margin-right: 350px;
+    align-self: center;
 }
 ul{
     list-style-type: none;
