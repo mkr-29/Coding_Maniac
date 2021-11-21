@@ -9,7 +9,7 @@ body{
 h1{
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    border: yellow;
+    border: greenyellow;
     border-style: double;
     border-width: 4px;
 }
@@ -27,9 +27,12 @@ a{
     font-family: 'Courier New', Courier, monospace;
 }
 div{
+    background: black;
+    font-size: 20px;
     border-style: inset;
     border-color: white;
     border-radius: 15px;
     margin-left: 350px;
     margin-right: 350px;
 }
+
