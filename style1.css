@@ -6,57 +6,129 @@ body{
     background-size: cover;
     color: greenyellow;
     text-align: center;
-    
 }
+
 h1{
+    margin: 10px 0 10px 0;
+    width: 100%;
+    border-style: solid;
+    border-color: white; 
     font-family: 'Courier New', Courier, monospace;
     font-size: 50px;
-    border: greenyellow;
-    border-style: double;
-    border-width: 4px;
 }
-button{
-    margin-top: 30px;
+
+h1:hover{
+    border-color: greenyellow;
+    background-color: black;
+    color: greenyellow;
+}
+.button_main_links{
+    padding: 10px 32px;
+    color: white;
+    border: 2px solid white;
+    text-align: center;
+    margin-top: 10px;
     font-size: 30px;
     background-color: rgb(61, 61, 61);
-    outline-style: solid;
-    outline-color: palegreen;
-    border-radius: 10px;
-    outline-width: 5px;
+    text-decoration: none;
+    display:inline-block;
+    border-radius: 7px;
 }
-button :hover{
+
+.button_main_links:hover{
     background-color: black;
-    color: yellowgreen;
+    border-color: greenyellow;
+    color: greenyellow;
 }
-a{
+
+.a_button{
+    color: white;
+    width: 500px;
+}
+
+.a_button:hover{
+    color: greenyellow;
+}
+
+.a_head{
+    margin: 0 5px 0 5px;
+    border-color: white;
+    width: 100%;
     color: white;
     font-family: 'Courier New', Courier, monospace;
 }
-div{
+
+.a_head:hover{
+    color: greenyellow;
+}
+
+.div_p{
+    
+    border-top: 50px;
+    border-bottom: 50px;
+    border-style: solid;
+    border-color: white;
+    color: white;
+    margin: 20px 40px 20px 40px;
     background: black;
     font-size: 20px;
-    border-style: inset;
-    border-color: white;
-    border-radius: 15px;
     align-self: center;
 }
-ul{
+
+.div_p:hover{
+    border-color: greenyellow;
+}
+
+.all_p{
+    width: 500px;
+    color: white;
+    
+}
+
+.all_p:hover{
+    color: greenyellow;
+}
+
+.ul_head{
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #333;
-}  
-li{
+}
+
+.li_head{
     float: left;
 }
-li a{
-    display: block;
+
+.li_head a{
+    margin: 0 30px 0 0;
+    display:block;
     color: white;
+    padding: 10px 12px;
     text-align: center;
-    padding: 14px 16px;
     text-decoration: none;
 }
-li a:hover{
-    background-color: #111;
+
+.li_head a:hover{
+    background-color: black;
+    color: greenyellow;
+}
+
+.img_mp{
+    border-color: white;
+    border-style: solid;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.img_mp:hover{
+    border-color: greenyellow;
+}
+
+.layout_padding1{
+    padding-top: 50px;
+}
+.smimage{
+    margin-left: 15px;
 }
